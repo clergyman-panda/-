@@ -1,0 +1,24 @@
+//接线2022.1.17
+
+SWD
+SWDIO	->	PA13
+SWDCLK	->	PA14
+
+
+UART1(Debug)
+UART1_TX	->	PA9
+UART1_RX	->	PA10
+
+UART2(ltemodule_USARTx)
+UART2_TX	->	PA2
+UART2_RX	->	PA3
+
+CAN1
+CAN1_RX		->	PA11
+CAN1_TX		->	PA12
+5v
+
+I2C(软件模拟)
+I2C_SDA		->	PC11
+I2C_SCL		->	PC12
+3.3v+-

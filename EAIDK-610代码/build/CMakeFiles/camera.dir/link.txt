@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/camera.dir/main.cpp.o CMakeFiles/camera.dir/usbcamera.cpp.o CMakeFiles/camera.dir/usart.cpp.o CMakeFiles/camera.dir/upload.cpp.o CMakeFiles/camera.dir/server.cpp.o  -o camera -lopencv_core -lopencv_imgproc -lopencv_imgcodecs -lopencv_highgui -lopencv_video -lopencv_videoio -lopencv_objdetect -lpthread 

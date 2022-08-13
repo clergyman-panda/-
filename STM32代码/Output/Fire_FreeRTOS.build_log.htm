@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 456, 789, LIC=LJWGK-Z5JGP-VIE5N-YVQM2-XERB3-PKHMF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\360MoveData\Users\65408\Desktop\OBD解析CAN\Project\RVMDK（uv5）\Fire_FreeRTOS.uvprojx
+Project File Date:  07/09/2022
+
+<h2>Output:</h2>
+Build target 'Fire_FreeRTOS'
+compiling main.c...
+..\..\User\usart\bsp_usart.h(152): warning:  #1295-D: Deprecated declaration ATKBLE02_init - give arg types
+  void ATKBLE02_init();
+..\..\User\main.c(282): warning:  #177-D: variable "xReturn" was declared but never referenced
+      BaseType_t xReturn = pdPASS;/* 定义一个创建信息返回值，默认为pdPASS */
+..\..\User\main.c(285): warning:  #550-D: variable "pxPreviousWakeTime" was set but never used
+        TickType_t pxPreviousWakeTime=0;//xTaskGetTickCount();
+..\..\User\main.c(389): warning:  #550-D: variable "xReturn" was set but never used
+    BaseType_t xReturn = pdPASS;/* 定义一个创建信息返回值，默认为pdPASS */
+..\..\User\main.c(390): warning:  #550-D: variable "pxPreviousWakeTime" was set but never used
+        TickType_t pxPreviousWakeTime=0;//xTaskGetTickCount();
+..\..\User\main.c(763): warning:  #177-D: variable "pxPreviousWakeTime" was declared but never referenced
+        TickType_t pxPreviousWakeTime=0;//xTaskGetTickCount();
+..\..\User\main.c(51): warning:  #177-D: variable "GPS_Task_Handle" was declared but never referenced
+  static TaskHandle_t GPS_Task_Handle = NULL;
+..\..\User\main.c(52): warning:  #177-D: variable "MPU_Task_Handle" was declared but never referenced
+  static TaskHandle_t MPU_Task_Handle=NULL;
+..\..\User\main.c(112): warning:  #177-D: function "GPS_Task" was declared but never referenced
+  static void   GPS_Task(void* pvParameters);/* SendInfo_1s_Task */
+..\..\User\main.c(114): warning:  #177-D: function "MPU_Task" was declared but never referenced
+  static void   MPU_Task(void* pvParameters);/* SendInfo_1s_Task */
+..\..\User\main.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=37484 RO-data=708 RW-data=936 ZI-data=39848  
+FromELF: creating hex file...
+"..\..\Output\Fire_FreeRTOS.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\360MoveData\Users\65408\Desktop\OBD解析CAN\Project\RVMDK（uv5）\RTE
+  D:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
